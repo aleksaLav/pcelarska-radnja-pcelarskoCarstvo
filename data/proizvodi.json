@@ -1,0 +1,393 @@
+[
+    {
+        "id":1,
+        "slika":
+        {
+            "src":"images/pcelarskiKljuc.png",
+            "alt":"PĆELARSKI NOŽ(KLUČ)"
+        },
+        "naziv":"PĆELARSKI NOŽ(KLUČ)",
+        "cena": 
+        {
+            "nova":1250,
+            "stara":1250
+        },
+        "naStanju": true,
+        "kategorija":{
+            "id":1,
+            "naziv":"OPREMA ZA RAD"
+        },
+        "prioritet":1
+
+    },
+    {
+        "id":2,
+        "slika":
+        {
+            "src":"images/cetka.png",
+            "alt":"PČELARSKA ČETKA"
+        },
+        "naziv":"PČELARSKA ČETKA",
+        "cena":
+        {
+            "nova":300,
+            "stara":250
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":1,
+            "naziv":"OPREMA ZA RAD"
+        },
+        "prioritet":2
+
+    },
+    {
+        "id":3,
+        "slika":
+        {
+            "src":"images/kljesta.png",
+            "alt":"KLJEŠTA ZA RAMOVE"
+        },
+        "naziv":"KLJEŠTA ZA RAMOVE",
+        "cena":
+        {
+            "nova":1000,
+            "stara":1000
+        },
+        "naStanju": true,
+        "kategorija":{
+            "id":1,
+            "naziv":"OPREMA ZA RAD"
+        },
+        "prioritet":1
+    },
+    {
+        "id":4,
+        "slika":
+        {
+            "src":"images/nosacRamova.png",
+            "alt":"SPOLJAŠNI NOSAČ RAMOVA"
+        },
+        "naziv":"SPOLJAŠNI NOSAČ RAMOVA",
+        "cena":
+        {
+            "nova":1300,
+            "stara":1500
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":1,
+            "naziv":"OPREMA ZA RAD"
+        },
+        "prioritet":2
+
+    },
+    {
+        "id":5,
+        "slika":
+        {
+            "src":"images/marker.png",
+            "alt":"Marker"
+        },
+        "naziv":"MARKER",
+        "cena":
+        {
+            "nova":300,
+            "stara":300
+        },
+        "naStanju":false,
+        "kategorija":{
+            "id":1,
+            "naziv":"OPREMA ZA RAD"
+        },
+        "prioritet":2
+    },
+    {
+        "id":6,
+        "slika":
+        {
+            "src":"images/dimilica.png",
+            "alt":"DIMILICA"
+        },
+        "naziv":"DIMILICA",
+        "cena":
+        {
+            "nova":1000,
+            "stara":1000
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":1,
+            "naziv":"OPREMA ZA RAD"
+        },
+        "prioritet":1
+    },
+    {
+        "id":7,
+        "slika":
+        {
+            "src":"images/kavgezMatica.png",
+            "alt":"kavez za maticu"
+        },
+        "naziv":"KAVEZ ZA MATICU",
+        "cena":
+        {
+            "nova":100,
+            "stara":90
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":1,
+            "naziv":"OPREMA ZA RAD"
+        },
+        "prioritet":2
+
+    },
+    {
+        "id":8,
+        "slika":
+        {
+            "src":"images/medOdLipe.png",
+            "alt":"MED OD LIPE"
+        },
+        "naziv":"MED OD LIPE",
+        "cena":
+        {
+            "nova":1100,
+            "stara":1200
+        },
+        "naStanju":false,
+        "kategorija":{
+            "id":2,
+            "naziv":"PČELINJI PROIZVODI"
+        },
+        "prioritet":3
+
+    },
+    {
+        "id":9,
+        "slika":
+        {
+            "src":"images/bagremov.png",
+            "alt":"BAGREMOV MED"
+        },
+        "naziv":"BAGREMOV MED",
+        "cena":
+        {
+            "nova":880,
+            "stara":900
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":2,
+            "naziv":"PČELINJI PROIZVODI"
+        },
+        "prioritet":1
+    },
+    {
+        "id":10,
+        "slika":
+        {
+            "src":"images/LivadskiMed.png",
+            "alt":"LIVADSKI MED"
+        },
+        "naziv":"LIVADSKI MED",
+        "cena":
+        {
+            "nova":950,
+            "stara":920
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":2,
+            "naziv":"PČELINJI PROIZVODI"
+        },
+        "prioritet":1
+    },
+    {
+        "id":11,
+        "slika":
+        {
+            "src":"images/propolis.png",
+            "alt":"PROPOLIS"
+        },
+        "naziv":"PROPOLIS",
+        "cena":
+        {
+            "nova":600,
+            "stara":600
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":2,
+            "naziv":"PČELINJI PROIZVODI"
+        },
+        "prioritet":3
+
+    },
+    {
+        "id":12,
+        "slika":
+        {
+            "src":"images/mlec.png",
+            "alt":"MATIČNA MLEČ"
+        },
+        "naziv":"MATIČNA MLEČ",
+        "cena":
+        {
+            "nova":500,
+            "stara":500
+        },
+        "naStanju":false,
+        "kategorija":{
+            "id":2,
+            "naziv":"PČELINJI PROIZVODI"
+        },
+        "prioritet":3
+
+    },
+    {
+        "id":13,
+        "slika":
+        {
+            "src":"images/vosak.png",
+            "alt":"VOSAK"
+        },
+        "naziv":"VOSAK",
+        "cena":
+        {
+            "nova":780,
+            "stara":800
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":2,
+            "naziv":"PČELINJI PROIZVODI"
+        },
+        "prioritet":2
+
+    },
+    {
+        "id":14,
+        "slika":
+        {
+            "src":"images/polen.png",
+            "alt":"POLEN"
+        },
+        "naziv":"POLEN",
+        "cena":
+        {
+            "nova":2500,
+            "stara":2000
+        },
+        "naStanju":false,
+        "kategorija":{
+            "id":2,
+            "naziv":"PČELINJI PROIZVODI"
+        },
+        "prioritet":3
+
+    },
+    {
+        "id":15,
+        "slika":
+        {
+            "src":"images/centrifuga.png",
+            "alt":"CENTRIFUGA ZA VRCANJE"
+        },
+        "naziv":"CENTRIFUGA ZA VRCANJE",
+        "cena":
+        {
+            "nova":15000,
+            "stara":15000
+        },
+        "naStanju":false,
+        "kategorija":{
+            "id":3,
+            "naziv":"RAZNO"
+        },
+        "prioritet":3
+    },
+    {
+        "id":16,
+        "slika":
+        {
+            "src":"images/sesirSaBluzom.png",
+            "alt":"PČELČARSKI ŠEŠIR SA BLUZOM"
+        },
+        "naziv":"PČELČARSKI ŠEŠIR SA BLUZOM",
+        "cena":
+        {
+            "nova":1800,
+            "stara":1800
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":3,
+            "naziv":"RAZNO"
+        },
+        "prioritet":1
+    },
+    {
+        "id":17,
+        "slika":
+        {
+            "src":"images/rukavice.png",
+            "alt":"RUKAVICE"
+        },
+        "naziv":"RUKAVICE",
+        "cena":
+        {
+            "nova":1050,
+            "stara":1050
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":3,
+            "naziv":"RAZNO"
+        },
+        "prioritet":3
+    },
+    {
+        "id":18,
+        "slika":
+        {
+            "src":"images/jez.png",
+            "alt":"viljuška otvaranje saća"
+        },
+        "naziv":"VILJUŠKA OTVARANJE SAĆA",
+        "cena":
+        {
+            "nova":300,
+            "stara":350
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":3,
+            "naziv":"RAZNO"
+        },
+        "prioritet":3
+
+    },
+    {
+        "id":19,
+        "slika":
+        {
+            "src":"images/pogaca.png",
+            "alt":"POGAČE ZA PREHRANJIVANJE"
+        },
+        "naziv":"POGAČE ZA PREHRANJIVANJE",
+        "cena":
+        {
+            "nova":200,
+            "stara":200
+        },
+        "naStanju":true,
+        "kategorija":{
+            "id":3,
+            "naziv":"RAZNO"
+        },
+        "prioritet":2
+
+    }
+]
