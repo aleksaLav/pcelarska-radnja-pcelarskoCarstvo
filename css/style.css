@@ -231,8 +231,6 @@ button{background-color: rgb(255, 238, 0);}
   .crvena{
       background-color: rgb(233, 125, 125);
   }
-  /* @media screen and (max-width:700px) {
-      .slide{
-          height: 300px; 
-      }
-  } */
+.nevidnjliv{
+    display: none;
+}
