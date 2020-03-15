@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>STR "Pčelarsko carstvo"</title>
+		<link rel="shortcut icon" href="images/pcelica.ico" />
+		<meta name="keywords" content="Pčelarsko carstvo,pcelarska radnja" />
+		<meta name="autor" content="Aleksa Stošić"/>
+		<meta name="description" content="pcelarska radnja, pcelarsa oprema, nudimo pcelarske savete" />
+     
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- moj css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  </head>
+  <body>
+      <!-- pocetak navigacije -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">STR "Pčelarsko carstvo"</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">POČETNA <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#SlikaKontakt">KONTAKT</a>
+            </li>
+          
+            <li class="nav-item">
+                <a class="nav-link" href="korpa.html">KORPA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="x.html">DOCS</a>
+              </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
+    <!-- kraj navigacije -->
+
+      <!-- pocetak slidera -->
+      <br><br>
+      <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/pcela1.png" class="d-block w-100" alt="pcele1">
+              <div class="carousel-caption d-none d-md-block zatamljeno">
+                <h5>KO SMO MI?</h5>
+                <p>Mi smo samostalna zanatska radnja koja nudi pčelarsku opremu, proizvode, hranu za pčele i naravno savete. </p> 
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/medonosno.png" class="d-block w-100" alt="ram pun pcela">
+              <div class="carousel-caption d-none d-md-block zatamljeno">
+                <h5>ZAŠTO BAŠ MI?</h5>
+                <p>Jedini smo u gradu, možda čak i u drzavi koji poseduju najsavremeniju opremu i tehnike pčelarenja.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/pcela2.png" class="d-block w-100" alt="pcela na cvetu">
+              <div class="carousel-caption d-none d-md-block zatamljeno">
+                <h5 >KAKO VAM MOžEMO POMOĆI?</h5>
+                <p >Mozete nas kontaktirati u slučaju da vam treba praktična pomoć, naše udruženje vam može poslati slobodnog pčelara, koji rešava problem.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!-- kraj slidera -->
+      <!-- pocetak filtriranje -->
+      <div class="container-fluid pb-3 pt-3 d-flex justify-content-start flex-wrap">
+        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 d-flex justify-content-around align-items-center flex-wrap border-right" >
+            <div id="sortFilter" class="col-xl-2 col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"></div>
+            <!-- <select name="" id="kategorija">
+                <option value="">kategorije</option> 
+            </select> -->
+             
+            <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 d-flex justify-content-center flex-wrap">
+              OD CENE &nbsp;
+              <span id="OfValeuPrice"></span>
+              <input type="range"  min="0" max="20000" id="range1"> 
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 d-flex justify-content-center flex-wrap">
+              DO CENE &nbsp;
+              <span id="toValuePrice"></span>
+              <input type="range"  min="0" max="20000" id="range2"> 
+            </div>
+            <!-- <input type="text" id="phone" name="phone" placeholder="filter po datumu" class="bg-dark"> -->
+            <DIV>
+              <button id="sortiraj" class="btn border border-dark">prikazi</button>
+            </DIV>
+
+        </div>
+        <div class="col-xl-1 col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pronađi proizvode..." aria-label="Search" id="search">
+            
+          </form>
+        </div>
+        <div class="col-xl-1 col-lg-2 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+        <a href="korpa.html">  <i class="material-icons">add_shopping_cart</i> = <span id="brojPorudz">0</span></a>
+        </div>
+      </div>
+      <!-- kraj filtriranje -->
+    <!-- pocetak proizvoda -->
+    <div class="container-fluid d-flex justify-content-center border-top mt-1">
+      <div class="container-fluid d-flex justify-content-center flex-wrap mt-1" id="prioritet">
+        <a href="#" data-prioritet="1"><p>1</p></a>/
+        <a href="#" data-prioritet="2"><p>2</p></a>/
+        <a href="#" data-prioritet="3"><p>3</p></a>
+      </div>
+
+  </div>
+    <div class="container-fluid d-flex justify-content-center pb-3 pt-3">
+      <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 d-flex justify-content-center flex-wrap" id="proizvodi">
+        <!-- <div class="col-xl-2 col-lg-3 col-md-5 col-sm-11 text-break border mb-1 m-2">
+          <img src="${element.slika.src}" class="w-100" />
+          <p>${element.naziv}</p>
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-centar">
+            <span>na stanju</span>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-around">
+            <span class="novaCena">${element.cena.nova}$</span><del>${element.cena.nova}$</del>
+            <button>korpa</button>
+        </div>
+      </div> -->
+      </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center border-top mt-1">
+      <div class="container-fluid d-flex justify-content-center flex-wrap mt-1" id="prioritet">
+        <a href="#" data-prioritet="1"><p>1</p></a>/
+        <a href="#" data-prioritet="2"><p>2</p></a>/
+        <a href="#" data-prioritet="3"><p>3</p></a>
+      </div>
+
+  </div>
+    <!-- kraj proizvoda -->
+
+
+    <!-- KONTAKT PODACI  -->
+    <div class="container-fluid d-flex futer pt-3 pb-3 justify-content-center align-items-center flex-wrap">
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex flex-row align-items-center justify-content-center">
+        <i class="large material-icons text-white">location_on</i><p class="text-wrap">Alekse Vojisavljevića 108/18,11000 BEOGRAD, radnim danima OD 6 DO 20h</p>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex flex-row justify-content-center">
+        <i class="large material-icons text-white">local_phone</i> <p class="text-wrap">+381555445558</p>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex flex-row justify-content-center">
+        <i class="large material-icons text-white">email</i><p>Pcelarsko-carstvo@gmail.com</p>
+      </div>
+  </div>
+    <!-- KRAJ KONTAKT PODACI  -->
+
+
+    <!-- pocetak forma -->
+    <div id="SlikaKontakt" class="container-fluid 
+    " >
+        <form action="#" method="get" id="mojaFORMA">
+            <h2 class="container-fluid d-flex justify-content-center">KONTAKT FORMA</h2>
+            <div class="container-fluid d-flex justify-content-center align-items-center flex-wrap">
+                <div id="textPitanja" class="col-xl-5 col-lg-5 col-md-10 col-ms-10">
+                    <div class="styled-input agile-styled-input-top">
+                        <label>Vaše ime i prezime:</label><span id="greskaImePrezime">*</span>
+                        <input type="text" id='ime' name="Name" placeholder="Petar Perović Perić"> </div>
+                    <div class="styled-input">
+                        <label>Unesite vaš email:</label><span id="greskaEmail">*</span>
+                        <input type="email" id='email' name="Email" placeholder="petar.peric123@gmail.com"> </div>
+                    <div class="styled-input">
+                        <label>Unesite vaš broj:</label><span id="greskaBroj">*</span>
+                        <input type="text" id='telefon' name="phone" placeholder="06(y)/+3816(y)-xxx-xxx(y)">
+                     </div>
+                </div>
+                <div id="LicniPodaci" class="col-xl-5 col-lg-5 col-md-10 col-ms-10">
+                    
+                    <div class="styled-input"><span id="greskaPoruke">*</span>
+                        <textarea name="Message" id='poruka' placeholder="poruka..."></textarea>
+                    </div>
+                    <div class="styled-input">
+                        <input type="checkbox" id='saglasnost' name="cekirano" value="" requireds>
+                        <label>Da li ste saglasni sa prethodno navedenim podacima?</label>
+                    </div>
+                    <div> <span id="agree">*</span>
+                        <div class="click">
+                            <input id='posalji' type="submit" value="POŠALJI" > </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- kraj forme -->
+    <!-- pocetak futer -->
+    <div class="container-fluid d-flex justify-content-center futer">
+    <div class="row col-lg-12 d-flex justify-content-around flex-wrap flex-row align-items-center ">
+
+       <div class="col-xl-4 col-lg-4 col-md-6 col-ms-12  d-flex justify-content-center pb-3 pt-3">
+            <button type="button" class="btn m-auto" data-toggle="modal" data-target="#exampleModalLong"> O MENI </button>
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Aleksa Stošić, 108/18</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                        </div>
+                        <div class="modal-body"> <img src="images/autor.png" class="d-block m-auto w-100" alt="Aleksa-Stošić">
+                            <p class="mt-4 autorP">Studiram u visokoj ICT školi već godinu dana, imam nekoliko projekata iza sebe, stalno se usavršavam i upoznajem sa novinama iz IT-sveta.</p>
+                            <p class="mt-2 autorP">Ovde mozete pogledati moj <a href="https://aleksalav.github.io/portfolio-Web-developer-Aleksa-Stosic/" target="_blank">CV </a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary text-dark" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>      
+            <div class="col-xl-4 col-lg-4 col-md-6 col-ms-12 d-flex justify-content-center pb-3 pt-3">
+                 <p class="">Copyright &COPY; 2020</p>
+            </div>
+            
+            <div class="col-xl-4 col-lg-4 col-md-6 col-ms-12 d-flex justify-content-around pb-3 pt-3">
+                    <ul class="col-xl-12 col-lg-12 col-md-12 col-ms-12 d-flex flex-row justify-content-around ">
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official mr-2 text-light"></i></a></li>
+                        <li><a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter mr-2 text-light"></i></a></li>
+                        <li><a href="http://www.google.com" target="_blank"><i class="fa fa-google-plus mr-2 text-light"></i></a></li>
+                        <li><a href="http://www.pinterest.com" target="_blank"><i class="fa fa-pinterest mr-2 text-light"></i></a></li>
+                        <li><a href="sitemap.xml" target="_blank"><i class="fa fa-linkedin text-light"></i></a></li>
+                    </ul>
+            </div>
+        
+    </div>
+</div>
+    <!-- kraj futer -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/korpa.js"></script>
+  </body>
+</html>
